@@ -3,6 +3,7 @@ var expect = require('chai').expect;
 
 describe('Hamming', function () {
   var hamming = new Hamming();
+  console.log(hamming);
 
   it('no difference between identical strands', function () {
     expect(hamming.compute('A', 'A')).to.equal(0);
